@@ -1,0 +1,6 @@
+SeleniumTest\TestLogin.class
+SeleniumTest\TestLogin3.class
+SeleniumTest\TestLogin2.class
+TestJunitConexion\TesConnectionBD.class
+testRunner\Runner.class
+stepDefinition\Steps.class

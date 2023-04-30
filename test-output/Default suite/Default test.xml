@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Vinaconc1" name="SeleniumTest.TestLogin3" tests="1" failures="0" timestamp="25 Apr 2023 00:19:11 GMT" time="4.392" errors="0">
+  <testcase name="f" time="0.575" classname="SeleniumTest.TestLogin3"/>
+</testsuite>

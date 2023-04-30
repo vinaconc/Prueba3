@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Vinaconc1" failures="1" tests="3" name="SeleniumTest.TestLogin" time="13.929" errors="0" timestamp="30 Apr 2023 02:00:24 GMT">
+  <testcase classname="SeleniumTest.TestLogin" name="f" time="1.103"/>
+  <testcase classname="SeleniumTest.TestLogin2" name="f" time="0.49">
+    <failure type="org.junit.ComparisonFailure" message="expected:&amp;lt;[Bienvenido]&amp;gt; but was:&amp;lt;[WebLogin]&amp;gt;">
+      <![CDATA[org.junit.ComparisonFailure: expected:<[Bienvenido]> but was:<[WebLogin]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at SeleniumTest.TestLogin2.f(TestLogin2.java:42)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+... Removed 22 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase classname="SeleniumTest.TestLogin3" name="f" time="0.527"/>
+</testsuite>

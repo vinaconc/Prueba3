@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4392" started-at="2023-04-24T20:19:07Z" finished-at="2023-04-24T20:19:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4392" started-at="2023-04-24T20:19:07Z" finished-at="2023-04-24T20:19:11Z">
+      <class name="SeleniumTest.TestLogin3">
+        <test-method status="PASS" signature="beforeTest()" name="beforeTest" is-config="true" duration-ms="3078" started-at="2023-04-24T20:19:07Z" finished-at="2023-04-24T20:19:10Z">
+        </test-method>
+        <test-method status="PASS" signature="f()" name="f" duration-ms="575" started-at="2023-04-24T20:19:10Z" finished-at="2023-04-24T20:19:10Z">
+        </test-method>
+        <test-method status="PASS" signature="afterTest()" name="afterTest" is-config="true" duration-ms="724" started-at="2023-04-24T20:19:10Z" finished-at="2023-04-24T20:19:11Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
