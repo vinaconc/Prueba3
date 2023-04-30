@@ -41,7 +41,7 @@ Feature: Realización de casos ingresando Rut, nombre de usuario y contraseña
   Scenario: Verificación de ingreso de sesión
     Given Abrir Chrome
     
-    When Ingresa Rut as "127163812", username as "admin" y password as "11111"
+    When Ingresa Rut as "127163812", username as "admin" y password as "12345"
     
     Then Inicia Sesión
     
