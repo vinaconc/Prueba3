@@ -29,9 +29,9 @@ public class TestLogin2 {
 	  WebElement TextUserName = driver.findElement(By.name("username"));
 	  
 	  TextRut.sendKeys("12716381");
-	  TextUserName.sendKeys("user");
+	  TextUserName.sendKeys("admin");
 	  
-	  driver.findElement(By.name("password")).sendKeys("123456");
+	  driver.findElement(By.name("password")).sendKeys("12345");
 	  
 	  driver.findElement(By.name("signin")).click();
 	  
