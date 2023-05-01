@@ -31,7 +31,7 @@ public class TestLogin2 {
 	  TextRut.sendKeys("102212967");
 	  TextUserName.sendKeys("user");
 	  
-	  driver.findElement(By.name("password")).sendKeys("12345");
+	  driver.findElement(By.name("password")).sendKeys("123456");
 	  
 	  driver.findElement(By.name("signin")).click();
 	  
