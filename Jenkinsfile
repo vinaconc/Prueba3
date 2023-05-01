@@ -28,8 +28,5 @@ node {
      
 junit allowEmptyResults: true, skipMarkingBuildUnstable: true, skipPublishingChecks: true, testResults: '**/target/surefire-reports/TEST-*.xml'
     }
-    post {
-        success {
-            archiveArtifacts 'target/*.jar'
-         }}   
+     
 }
