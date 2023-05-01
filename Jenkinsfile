@@ -24,8 +24,12 @@ node {
     
          archiveArtifacts artifacts: 'target/surefire-reports/emailable-report.html',  followSymlinks: false
  archiveArtifacts artifacts: '**/target/*.war',  followSymlinks: false
-archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
+
      
 junit allowEmptyResults: true, skipMarkingBuildUnstable: true, skipPublishingChecks: true, testResults: '**/target/surefire-reports/TEST-*.xml'
     }
+    post {
+        success {
+            archiveArtifacts 'target/*.jar'
+         }}   
 }
