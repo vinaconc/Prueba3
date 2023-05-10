@@ -94,45 +94,10 @@ public class WelcomeServ extends HttpServlet {
 	         @SuppressWarnings("unused")
 			RequestDispatcher dispatcher = null;
 	         
-	        if (rs.next()) {
+	         if (rs.next()) {
 	        
-	        
-
-	        	session.setAttribute("name", rs.getString("username"));
-	        	PrintWriter out = response.getWriter();
-	        	
-	        	response.setContentType("text/html");
-	        	
-	        	String title = "Bienvenido";
-	        	out = response.getWriter();
-	        	out.println("<HTML><HEAD><TITLE>");
-	        	out.println(title);
-	        	out.println("</TITLE></HEAD><BODY>");
-	        	out.println("<H1>" + title + ", " + rs.getString("username") + "</H1>");
-	        	out.println("<P>Información básica");
-	        	out.println("</BODY></HTML>");
-	        	
-	        	out.print("<table width=75% border=1>");
-	            
-	            ResultSet rs2 = pst2.executeQuery();
-	            
-	            java.sql.ResultSetMetaData rsmd = rs2.getMetaData();
-	            int totalcol = rsmd.getColumnCount();
-	            out.print("<tr>");
-	            for(int i=1; 	i<=totalcol;i++ ) {
-	            	 	
-	            out.print("<th>"+rsmd.getColumnName(i)+"</th>");
-	            }
-	           
-	            out.print("<tr>");
-	            while(rs2.next()) {
-	            	out.print("<tr><td>"+ rs2.getString(1)+"</td><td>"+ rs2.getString(2)+"</td><td>"+ 
-	            rs2.getString(3)+"</td>"+"<td>"+ rs2.getString(4)+"<td>"
-	            		 +   rs2.getString(5)+"</td></tr>");
-	            	out.print("</table>");
-	            	out.close();	
-	            }
-
+	  
+	        	response.sendRedirect("https://sistprodvenc.000webhostapp.com/bdvenc/modulos/home/");
 	        	
 	        }else {request.setAttribute("status", "failed");
 	        request.setAttribute("status", "failed");
