@@ -69,6 +69,8 @@
 		</section>
 
 	</div>
+	
+
 <script src="js/validavacio.js">
 
 

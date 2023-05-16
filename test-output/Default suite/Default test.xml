@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="Vinaconc1" name="SeleniumTest.TestLogin3" tests="1" failures="0" timestamp="25 Apr 2023 00:19:11 GMT" time="4.392" errors="0">
-  <testcase name="f" time="0.575" classname="SeleniumTest.TestLogin3"/>
+<testsuite hostname="Vinaconc1" failures="0" tests="3" name="SeleniumTest.TestLogin" time="8.442" errors="0" timestamp="15 May 2023 23:43:22 GMT">
+  <testcase classname="SeleniumTest.TestLogin" name="f" time="0.395"/>
+  <testcase classname="SeleniumTest.TestLogin2" name="f" time="0.481"/>
+  <testcase classname="SeleniumTest.TestLogin3" name="f" time="0.497"/>
 </testsuite>

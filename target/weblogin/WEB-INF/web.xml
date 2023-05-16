@@ -1,0 +1,55 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>WelcomeServ</servlet-name>
+  	<display-name>WelcomeServ</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.WelcomeServ</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>WelcomeServlet</servlet-name>
+  	<display-name>WelcomeServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.WelcomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>registrarHoraMascota</servlet-name>
+  	<display-name>registrarHoraMascota</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.registrarHoraMascota</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegistrarHoraMascotaServlet</servlet-name>
+  	<display-name>RegistrarHoraMascotaServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.RegistrarHoraMascotaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>WelcomeServ</servlet-name>
+  	<url-pattern>/WelcomeServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>WelcomeServlet</servlet-name>
+  	<url-pattern>/WelcomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>registrarHoraMascota</servlet-name>
+  	<url-pattern>/registrarHoraMascota</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegistrarHoraMascotaServlet</servlet-name>
+  	<url-pattern>/RegistrarHoraMascotaServlet</url-pattern>
+  </servlet-mapping>
+  
+ <welcome-file-list>
+  <welcome-file>login.jsp</welcome-file>
+  
+  
+  </welcome-file-list>
+  
+   
+</web-app>

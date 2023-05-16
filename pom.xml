@@ -4,8 +4,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.web.maven</groupId>
-  <artifactId>weblogin</artifactId>
+  <groupId>com.petSmile</groupId>
+  <artifactId>ReservaHora</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 	
@@ -17,8 +17,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -42,6 +42,12 @@
       <version>6.1.1</version>
       <scope>compile</scope>
     </dependency>
+    
+    <dependency> <groupId>jstl</groupId> 
+    <artifactId>jstl</artifactId> 
+    <version>1.2</version> 
+    <scope>provided</scope> </dependency>
+
     
 <dependency>
     <groupId>io.cucumber</groupId>

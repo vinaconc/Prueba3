@@ -1,6 +1,8 @@
-SeleniumTest\TestLogin.class
 SeleniumTest\TestLogin3.class
-SeleniumTest\TestLogin2.class
-TestJunitConexion\TesConnectionBD.class
 testRunner\Runner.class
 stepDefinition\Steps.class
+SeleniumTestClinica\TestRegistroClinica.class
+SeleniumTest\TestLogin.class
+stepDefinition\StepsClinic.class
+SeleniumTest\TestLogin2.class
+TestJunitConexion\TesConnectionBD.class

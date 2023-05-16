@@ -16,6 +16,18 @@
   	<description></description>
   	<servlet-class>com.servlet.WelcomeServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>registrarHoraMascota</servlet-name>
+  	<display-name>registrarHoraMascota</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.registrarHoraMascota</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegistrarHoraMascotaServlet</servlet-name>
+  	<display-name>RegistrarHoraMascotaServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.RegistrarHoraMascotaServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>WelcomeServ</servlet-name>
   	<url-pattern>/WelcomeServ</url-pattern>
@@ -23,6 +35,14 @@
   <servlet-mapping>
   	<servlet-name>WelcomeServlet</servlet-name>
   	<url-pattern>/WelcomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>registrarHoraMascota</servlet-name>
+  	<url-pattern>/registrarHoraMascota</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegistrarHoraMascotaServlet</servlet-name>
+  	<url-pattern>/RegistrarHoraMascotaServlet</url-pattern>
   </servlet-mapping>
   
  <welcome-file-list>

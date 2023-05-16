@@ -1,8 +1,10 @@
 package stepDefinition;
 
-import static org.junit.Assert.assertEquals;
 
-import java.util.concurrent.TimeUnit;
+
+import static org.testng.Assert.assertEquals;
+
+
 
 import org.openqa.selenium.By; 
 import org.openqa.selenium.WebDriver;
@@ -32,7 +34,7 @@ public class Steps {
 	      driver.findElement(By.id("Rut")).sendKeys(arg1);
 	      driver.findElement(By.id("username")).sendKeys(arg2);
 	      driver.findElement(By.id("password")).sendKeys(arg3);
-	      driver.findElement(By.id("signin")).click(); 
+	      driver.findElement(By.id("Reg")).click(); 
 	   } 
 		
 	   @Then("Inicia Sesión") 

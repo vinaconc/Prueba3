@@ -39,7 +39,7 @@ public class TestLogin2 {
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	  
 	  try {
-		assertEquals("Bienvenido", driver.getTitle());
+		assertEquals("WebLogin", driver.getTitle());
 	} catch (Exception e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
