@@ -74,7 +74,7 @@ public class WelcomeServ extends HttpServlet {
 		HttpSession session = request.getSession();
 		try {
 	         Class.forName("com.mysql.jdbc.Driver");
-	         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/login", "root", "");
+	         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3308/login", "root", "");
 	         
 	         
 	         PreparedStatement pst = conn.prepareStatement("select * from usuario where Rut = ? and username = ? and password = ?");
@@ -94,15 +94,26 @@ public class WelcomeServ extends HttpServlet {
 	         @SuppressWarnings("unused")
 			RequestDispatcher dispatcher = null;
 	         
-	         if (rs.next()) {
-	        
+
+	        if (rs.next()) {
+ {        
 	  
-	        	response.sendRedirect("https://sistprodvenc.000webhostapp.com/bdvenc/modulos/home/");
 	        	
+	        	 {request.setAttribute("status", "success");
+	 	        request.setAttribute("status", "success");
+	 	        
+	 	        dispatcher = request.getRequestDispatcher("/opciones.jsp");
+	 	        
+	 	        
+	 	        
+	 	        }
+	 	      dispatcher.forward(request, response);
+	 	     
+ }
 	        }else {request.setAttribute("status", "failed");
 	        request.setAttribute("status", "failed");
 	        
-	        dispatcher = request.getRequestDispatcher("login.jsp");
+	        dispatcher = request.getRequestDispatcher("/login.jsp");
 	        
 	        
 	        
