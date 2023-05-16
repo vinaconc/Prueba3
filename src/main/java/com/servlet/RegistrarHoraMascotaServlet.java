@@ -71,7 +71,7 @@ import java.time.LocalDate;
 		    
 
 			
-			  final String url = "jdbc:mysql://localhost:3306/clinica";
+			  final String url = "jdbc:mysql://localhost:3308/clinica";
 			    final String user = "root";
 			    final String password = "";
 			    
@@ -82,7 +82,6 @@ import java.time.LocalDate;
 	    		Class.forName("com.mysql.jdbc.Driver");
 	    		Connection connection = DriverManager.getConnection(url, user, password);
 	    		
-	    
 	
 	    		int uidMascota =  Integer.parseInt(request.getParameter("idMascota"));
 	    		String umascota =  request.getParameter("nombreMascota");
